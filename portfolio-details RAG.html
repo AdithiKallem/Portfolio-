@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#Experience"><i class="bi bi-file-earmark-text navicon"></i><span>Experience</span></a></li>
+        <li><a href="#projects"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Generative AI RAG Chatbot for Mason Student Services Center | Capstone Project</li>
+          </ol>
+        </nav>
+        <h1>Project Details</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!--<div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/app-1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/product-1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/branding-1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/books-1.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>-->
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>GMU Mason Student Services Center (MSSC) Generative AI Chatbot — 6-Month Pilot</h2>
+              <h3> Abstract </h3>
+              <p>
+                This project established the groundwork for a six-month pilot of a Generative AI Chatbot aimed at enhancing student support services at the Mason Student Services Center (MSSC) at George Mason University (GMU). Results from the Spring 2024 project highlighted the need for a scalable solution to provide 24/7 support, addressing gaps in MSSC’s availability during off-hours and periods of high demand. In preparation for the pilot, key architectural updates were implemented, including integrating the advanced Claude 3.5 Sonnet language model, reindexing the MSSC knowledge base using Kendra to ensure updated and relevant responses, and refining prompt engineering to enhance the chatbot’s contextual understanding and accuracy. While automated testing tools were initially considered for evaluating response quality, they were deemed unsuitable for this project, leading to the development of a manual testing framework that assessed the chatbot’s accuracy, relevance, and sensitivity to user emotions. Testing also included handling ambiguous or misleading queries and ensuring adherence to privacy standards. At the conclusion of the project, the updated chatbot system, along with supporting documentation for maintenance and upgrades, will be handed over to MSSC and ITS for the implementation of the six-month pilot, paving the way for improved accessibility and efficiency in student services through advanced AI solutions.
+              </p>
+              <p>
+               
+              </p>
+
+              <ul>
+                <li>Designed and developed a Generative AI Retrieval-Augmented Generation (RAG) chatbot for the Mason Student Services Center (MSSC) using AWS services such as Lex, Kendra, Bedrock, Lambda, and Cognito, ensuring seamless integration with MSSC systems.</li>
+                  <li>Leveraged Anthropic Claude LLM to enhance query resolution, achieving a 20% improvement in response times and 95% accuracy, supporting over 200,000 user interactions during a 6-month pilot program.</li>
+                    <li>Conducted extensive testing and refinement over a 15-week capstone project.</li>
+              </ul>
+
+              <h2> Key Highlights </h2>
+              <ul>
+                <li><h5>AI Integration:</h5> Incorporated Anthropic Claude LLM with Retrieval-Augmented Generation (RAG) architecture for contextual and accurate responses.</li>
+                  <li><h5>Dynamic Data Retrieval:</h5>  Leveraged AWS tools such as Amazon Kendra, Bedrock, Lambda, and DynamoDB for real-time information indexing and retrieval from the MSSC knowledge base.</li>
+                    <li><h5>Testing and Validation:</h5>  Designed a comprehensive manual testing framework to evaluate response quality, contextual understanding, and user satisfaction.</li>
+                    <li><h5>User-Centric Design:</h5> Developed a chatbot interface aligned with George Mason University’s branding, ensuring a seamless and intuitive user experience.</li>
+                    <li> <h5>Scalable and Secure Architecture: </h5> Implemented AWS CloudFormation templates to automate infrastructure deployment, ensuring scalability and data security.</li>
+                    <li> <h5>	Operational Efficiency:</h5>Enabled MSSC staff to focus on complex cases by automating routine queries, improving overall operational efficiency.</li>
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> RAG Chatbot</li>
+                <li><strong>Client</strong> Mason Student Service Center - George Mason University</li>
+                <li><strong>Project date</strong> 13 December, 2024</li>
+                <li><a href="https://github.com/AdithiKallem/DAEN-690-CAPSTONE-PROJECT" class="btn-visit align-self-start">DETAILS</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Adithi Kallem</h3>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/adithi-kallem-944b90175/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/AdithiKallem?tab=repositories"><i class="bi bi-github"></i></a>
+
+      </div>
+      
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
